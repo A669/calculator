@@ -24,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
         int num2 = Integer.parseInt(el2.getText().toString());
         int resSum = num1 + num2;
         resText.setText(Integer.toString(resSum));
+        int min = num1 - num2;
+        resText.setText(Integer.toString(min));
+        int multi = num1*num2;
+        resText.setText(Integer.toString(multi));
+        int div = num1/num2;
+        resText.setText(Integer.toString(div));
 
     }
 }
